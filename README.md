@@ -22,3 +22,4 @@ See usage here: https://github.com/Unity-Technologies/Unity-Experimental-DXR/blo
 FAQ:
 - This repository use git LFS for large file. Please use "git lfs clone https://github.com/Unity-Technologies/Unity-Experimental-DXR.git" or a git lfs client that is LFS aware to clone repository.
 - Downloading source code from repository will not work. Please use https://github.com/Unity-Technologies/Unity-Experimental-DXR/releases zip file instead.
+- Windows can't handle more than 260 character for filename. Be sure to install file in a short path (like C:\ or D:\)
