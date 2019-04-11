@@ -52,7 +52,6 @@ Techniques using DXR:
 * Ambient occlusion
 * Rough Reflection (including lighting in reflection)
 * Texture rectangle light with shadow
-* Realtime GI (as a plugin)
 * Primary-ray rendering  multi-hit smooth transparent and opaque
 
 
