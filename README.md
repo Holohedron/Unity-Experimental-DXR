@@ -29,6 +29,12 @@ See usage here: https://github.com/Unity-Technologies/Unity-Experimental-DXR/blo
 Unity Forum Link: https://forum.unity.com/threads/unity-experimental-hdrp-dxr.656092/
 
 FAQ:
+- What are the current limitation
+
+This experimental version don't support deformation (skinning, morph target). It doesn't support visual effect graph.
+It is restricted to Lit and Unlit shader and Lit shader graph for reflection and primary ray material.
+Only rectangular area light shadow are raytraced. Transparent aren't supported in most effect. No multi-gpu support.
+
 - I get " this application wont work on this computer" when running Unity.exe
 
 You don't have all the files from the repository. This project uses Git Large Files Support (LFS). Downloading a zip file using the green button on Github **will not work**. You must clone the project with a version of git that has LFS. You can download Git LFS here: <https://git-lfs.github.com/>. 
