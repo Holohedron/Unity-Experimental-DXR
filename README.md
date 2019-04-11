@@ -31,6 +31,9 @@ FAQ:
 
 You don't have all the files from the repository. This project uses Git Large Files Support (LFS). Downloading a zip file using the green button on Github **will not work**. You must clone the project with a version of git that has LFS. You can download Git LFS here: <https://git-lfs.github.com/>. 
 
-- Windows can't handle more than 260 character for filename. 
+- When installing the DXR project template I get this error:
 
-Mean that the project could fail to be created due to long name (we are working on providing a new project with shorter name) Be sure to install file in a short path (like C:\ or D:\)
+<img src = "https://github.com/Unity-Technologies/FontainebleauDemo/blob/master/Documentation/Images/Error0.PNG" >
+
+This is due to Windows limitation that can't handle more than 260 character for filename. 
+Please use a shorter folder and project name to allow the template to install correctly. Like "C:\DXR"
