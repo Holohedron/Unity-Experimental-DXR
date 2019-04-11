@@ -8,6 +8,7 @@ You can clone the repository using the tool of your preference (Git, Github Desk
   | ------------------------------------------------------------ |
   | This project uses Git Large Files Support (LFS). Downloading a zip file using the green button on Github **will not work**. You must clone the project with a version of git that has LFS. You can download Git LFS here: <https://git-lfs.github.com/>. |
 
+Project zip with all files (including LFS files) can be downloaded from the release section https://github.com/Unity-Technologies/Unity-Experimental-DXR/releases.
 
 The Experimental DXR project is a Unity custom version with binaries based on the 2019.2a5 version of Unity, enhanced with DXR support and version 5.8.0 of HDRP enhanced with DXR support. It is a Windows 10 (64 bit) only version with DX12 API.
 
@@ -26,6 +27,7 @@ Create a new project and select DXR High Definition RP (Preview)
 See usage here: https://github.com/Unity-Technologies/Unity-Experimental-DXR/blob/master/documentation/The%20Experimental%20DXR%20project%20manual.pdf
 
 FAQ:
-- This repository use git LFS for large file. Please use "git lfs clone https://github.com/Unity-Technologies/Unity-Experimental-DXR.git" or a git lfs client that is LFS aware to clone repository.
-- Downloading source code from repository will not work. Please use https://github.com/Unity-Technologies/Unity-Experimental-DXR/releases zip file instead.
-- Windows can't handle more than 260 character for filename. Be sure to install file in a short path (like C:\ or D:\)
+- I get " this application wont work on this computer" when running Unity.exe
+You don't have all the files from the repository. This project uses Git Large Files Support (LFS). Downloading a zip file using the green button on Github **will not work**. You must clone the project with a version of git that has LFS. You can download Git LFS here: <https://git-lfs.github.com/>. 
+
+- Windows can't handle more than 260 character for filename. Mean that the project could fail to be created due to long name (we are working on providing a new project with shorter name) Be sure to install file in a short path (like C:\ or D:\)
