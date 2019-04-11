@@ -1,7 +1,13 @@
 # Unity-Experimental-DXR
 
 This repository contains the Experimental DXR project.
-This project use large file storage. Please check https://git-lfs.github.com/ first step to configure large file storage on your system.
+
+You can clone the repository using the tool of your preference (Git, Github Desktop, Sourcetree, ...). 
+
+  | IMPORTANT                                                    |
+  | ------------------------------------------------------------ |
+  | This project uses Git Large Files Support (LFS). Downloading a zip file using the green button on Github **will not work**. You must clone the project with a version of git that has LFS. You can download Git LFS here: <https://git-lfs.github.com/>. |
+
 
 The Experimental DXR project is a Unity custom version with binaries based on the 2019.2a5 version of Unity, enhanced with DXR support and version 5.8.0 of HDRP enhanced with DXR support. It is a Windows 10 (64 bit) only version with DX12 API.
 
