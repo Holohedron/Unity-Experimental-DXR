@@ -28,6 +28,8 @@ See usage here: https://github.com/Unity-Technologies/Unity-Experimental-DXR/blo
 
 Unity Forum Link: https://forum.unity.com/threads/unity-experimental-hdrp-dxr.656092/
 
+Caution: ** Currently Windows Player isn't working **
+
 FAQ:
 - I get " this application wont work on this computer" when running Unity.exe
 
