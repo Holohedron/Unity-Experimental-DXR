@@ -29,12 +29,6 @@ See usage here: https://github.com/Unity-Technologies/Unity-Experimental-DXR/blo
 Unity Forum Link: https://forum.unity.com/threads/unity-experimental-hdrp-dxr.656092/
 
 FAQ:
-- What are the current limitations ?
-
-This experimental version don't support deformation (skinning, morph target). It doesn't support visual effect graph.
-It is restricted to Lit and Unlit shader and Lit shader graph for reflection and primary ray material.
-Only rectangular area light shadow are raytraced. Transparent aren't supported in most effect. No multi-gpu support.
-
 - I get " this application wont work on this computer" when running Unity.exe
 
 You don't have all the files from the repository. This project uses Git Large Files Support (LFS). Downloading a zip file using the green button on Github **will not work**. You must clone the project with a version of git that has LFS. You can download Git LFS here: <https://git-lfs.github.com/>. 
@@ -46,9 +40,7 @@ You don't have all the files from the repository. This project uses Git Large Fi
 This is due to Windows limitation that can't handle more than 260 character for filename. 
 Please use a shorter folder and project name to allow the template to install correctly. Like "C:\DXR"
 
-- What are the current implemented technique
-
-Techniques using DXR:
+# Techniques using DXR:
 * Ambient occlusion
 * Rough Reflection (including lighting in reflection)
 * Texture rectangle light with shadow
@@ -85,5 +77,14 @@ Current state:
       * Currently each objects setup in AS evaluates its lightprobe (In addition to lightprobe being evaluated in frustum for regular rasterization (need a cache system))
    * Support Light Layers
 
+Limitation
+* Caution: Node in Shader Graph with DDX/DDY instruction fail with DXR
+   * Checkerboard
+   * No support for Terrain which rely on DDX/DDY
+* Multi GPU isn’t supported in Unity for now.
+* Transparent don’t work with technique mention above that require depth and normal buffer. Currently Transparent need to be handled with rasterization unless we render them with Primary-ray.
+* Transparent blend mode. With DXR transparent are hard to support. Transparent blending mode aren’t sent to the shader, so currently we can’t make distinction between additive and alpha blending. Currently we will only do alpha blending all the time.
+* No support for vertex deformation (skinning, morph target, vertex animation)
+* No support for visual effect graph
 
 
