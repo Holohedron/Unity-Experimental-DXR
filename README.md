@@ -33,7 +33,7 @@ You don't have all the files from the repository. This project uses Git Large Fi
 
 - When installing the DXR project template I get this error:
 
-<img src = "https://github.com/Unity-Technologies/FontainebleauDemo/blob/master/Documentation/Images/Error0.PNG" >
+<img src = "https://github.com/Unity-Technologies/Unity-Experimental-DXR/blob/master/documentation/Error0.png" >
 
 This is due to Windows limitation that can't handle more than 260 character for filename. 
 Please use a shorter folder and project name to allow the template to install correctly. Like "C:\DXR"
