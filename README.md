@@ -18,3 +18,7 @@ Launch Unity.exe
 Create a new project and select DXR High Definition RP (Preview)
 
 See usage here: https://github.com/Unity-Technologies/Unity-Experimental-DXR/blob/master/documentation/The%20Experimental%20DXR%20project%20manual.pdf
+
+FAQ:
+- This repository use git LFS for large file. Please use "git lfs clone https://github.com/Unity-Technologies/Unity-Experimental-DXR.git" or a git lfs client that is LFS aware to clone repository.
+- Downloading source code from repository will not work. Please use https://github.com/Unity-Technologies/Unity-Experimental-DXR/releases zip file instead.
