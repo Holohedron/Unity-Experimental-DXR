@@ -26,6 +26,8 @@ Create a new project and select DXR High Definition RP (Preview)
 
 See usage here: https://github.com/Unity-Technologies/Unity-Experimental-DXR/blob/master/documentation/The%20Experimental%20DXR%20project%20manual.pdf
 
+Unity Forum Link: https://forum.unity.com/threads/unity-experimental-hdrp-dxr.656092/
+
 FAQ:
 - I get " this application wont work on this computer" when running Unity.exe
 
@@ -36,4 +38,4 @@ You don't have all the files from the repository. This project uses Git Large Fi
 <img src = "https://github.com/Unity-Technologies/Unity-Experimental-DXR/blob/master/documentation/Error0.png" >
 
 This is due to Windows limitation that can't handle more than 260 character for filename. 
-Please use a shorter folder and project name to allow the template to install correctly. Like "C:\DXR"
+Please use a shorter folder and project name to allow the template to install correctly. Like "C:\DXR"1
