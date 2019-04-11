@@ -8,8 +8,9 @@ The Experimental DXR project is a Unity custom version with binaries based on th
 This project is a sandbox in which you can  play with real time ray tracing features in Unity. This is a prototype and the final implementation of DXR will be different from this version. This project can not be used to do any production work.
 
 Requirements:
-NVIDIA RTX series card
-Windows 10 RS5 (Build 1809) or later
+- NVIDIA RTX series card with the latest drivers [here](https://www.nvidia.com/Download/index.aspx?lang=com)
+- Windows 10 RS5 (Build 1809) or later
+
 
 Install step:
 Download the project from Github in the release section, unzip.
