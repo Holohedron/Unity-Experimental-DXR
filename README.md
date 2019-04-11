@@ -22,7 +22,7 @@ Requirements:
 Install step:
 Download the project from Github in the release section, unzip.
 Launch Unity.exe
-Create a new project and select DXR High Definition RP (Preview)
+Create a new project and select DXR High Definition RP (Preview) - Be sure you are to create project for Unity 2019.2.0a5.
 
 See usage here: https://github.com/Unity-Technologies/Unity-Experimental-DXR/blob/master/documentation/The%20Experimental%20DXR%20project%20manual.pdf
 
