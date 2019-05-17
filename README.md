@@ -28,8 +28,6 @@ See usage here: https://github.com/Unity-Technologies/Unity-Experimental-DXR/blo
 
 Unity Forum Link: https://forum.unity.com/threads/unity-experimental-hdrp-dxr.656092/
 
-Caution: **Currently Windows Player isn't working**
-
 Note: The binaries available on this github can be use with this branch from SRP github:
 https://github.com/Unity-Technologies/ScriptableRenderPipeline/tree/experimental-dxr-release
 This is the branch that is included inside the template in case users want to avoid to install the template project.
